@@ -1,7 +1,8 @@
 ﻿import cv2
 
 #VideoCapture オブジェクトを取得
-capture = cv2.VideoCapture(1)
+#エラーが出る場合は、VideoCaptureの値を変えてください
+capture = cv2.VideoCapture(0)
 
 
 while(True):

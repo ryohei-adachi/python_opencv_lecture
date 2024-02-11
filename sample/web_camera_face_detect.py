@@ -1,6 +1,7 @@
 import cv2
 
-cap = cv2.VideoCapture(1)
+#エラーが出る場合は、VideoCaptureの値を変えてください
+cap = cv2.VideoCapture(0)
 cascade_path = "haarcascade_frontalface_default.xml"
 
 while True:
