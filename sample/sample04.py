@@ -2,7 +2,7 @@
 import cv2
 
 #画像を読み込む
-img = cv2.imread('fruits.jpg')
+img = cv2.imread('image/fruits.jpg')
 
 #四角形を画像に描写する(緑色)
 img = cv2.rectangle(img, (0,10), (200,200), (0,255,0), 3)

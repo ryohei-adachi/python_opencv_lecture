@@ -2,13 +2,10 @@
 import cv2
 
 #画像を読み込む
-img = cv2.imread('fruits.jpg')
-
-#画像をグレースケール化する。
-gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+img = cv2.imread('image/fruits.jpg')
 
 #画像を表示する
-cv2.imshow("Fruits Image", gray_img)
+cv2.imshow("Fruits Image", img)
 
 #キーボードを押すと画像の表示終了
 cv2.waitKey(0)
