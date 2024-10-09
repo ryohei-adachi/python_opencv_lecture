@@ -1,4 +1,4 @@
-﻿import cv2
+import cv2
 
 #VideoCapture オブジェクトを取得
 #エラーが出る場合は、VideoCaptureの値を変えてください

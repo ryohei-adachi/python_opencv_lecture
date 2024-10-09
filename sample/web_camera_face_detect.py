@@ -1,6 +1,6 @@
 import cv2
 
-#エラーが出る場合は、VideoCaptureの値を変えてください
+#繧ｨ繝ｩ繝ｼ縺悟�ｺ繧句ｴ蜷医�ｯ縲〃ideoCapture縺ｮ蛟､繧貞､峨∴縺ｦ縺上□縺輔＞
 cap = cv2.VideoCapture(0)
 cascade_path = "haarcascade_frontalface_default.xml"
 
